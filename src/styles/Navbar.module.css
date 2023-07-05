@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #222;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navLink {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: large;
+  padding: 0.6em;
+}
+@media (max-width: 500px) {
+  .navLink {
+    font-size: medium;
+  }
+}

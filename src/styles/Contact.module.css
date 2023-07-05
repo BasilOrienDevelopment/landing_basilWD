@@ -1,0 +1,55 @@
+.contactComponent {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.title {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 1px 1px magenta;
+}
+.contactList {
+  list-style: none;
+  padding: 2em;
+  display: flex;
+  background-color: #90a0bba4;
+  width: 90vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  box-shadow: 0 0 5px violet;
+}
+.contactLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 0.5em 10px;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 5px lightblue;
+  width: 140px;
+}
+.contactLink:hover {
+  background-color: #f2f2f2;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  .contactLink {
+    width: 200px;
+    justify-content: center;
+  }
+  .contactList {
+    min-width: 285px;
+  }
+}
